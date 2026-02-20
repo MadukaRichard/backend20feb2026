@@ -16,7 +16,7 @@ app.use("/", userrouter)
 
 
 connect()
-const port = 5000
+const port = 5003
 app.listen(port,()=>{
  console.log(`app started at port ${port}`);
  
